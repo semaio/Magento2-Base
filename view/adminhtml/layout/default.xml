@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Rouven Alexander Rieker
+ * See LICENSE.md bundled with this module for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="legal.system">
+            <block class="Semaio\Base\Block\Adminhtml\Shop\Version" name="shop_version" as="shop_version" after="version" />
+            <block class="Semaio\Base\Block\Adminhtml\Shop\ApplicationMode" name="application_mode" as="application_mode" after="shop_version" />
+        </referenceContainer>
+    </body>
+</page>
