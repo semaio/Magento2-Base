@@ -39,4 +39,4 @@ Licence
 
 Copyright
 ---------
-(c) 2015 Rouven Alexander Rieker
+(c) 2016 Rouven Alexander Rieker
