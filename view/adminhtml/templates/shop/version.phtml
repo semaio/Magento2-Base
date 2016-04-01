@@ -1,0 +1,16 @@
+<?php
+/**
+ * Copyright © 2015 Rouven Alexander Rieker
+ * See LICENSE.md bundled with this module for license details.
+ */
+/**
+ * @var $this Semaio\Base\Block\Adminhtml\Shop\Version
+ */
+// @codingStandardsIgnoreFile
+?>
+<?php if ($shopVersion = $this->getShopVersion()): ?>
+    <p class="magento-version">
+        <strong><?php echo __('Shop Version'); ?></strong>
+        <?php echo __('ver. %1', $shopVersion) ?>
+    </p>
+<?php endif; ?>
