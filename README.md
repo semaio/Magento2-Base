@@ -6,7 +6,7 @@ This module adds some base information to the Magento backend.
 Facts
 -----
 
-* Version: 1.1.0
+* Version: 2.0.0
 
 Functionality
 -------------
